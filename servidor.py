@@ -54,7 +54,7 @@ class jogo: #classe para criação da janela
         #parte do servidor
         self.servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Internet , protocolo TCP/IP
         self.ip = '0.0.0.0'
-        self.porta = 1247
+        self.porta = 9999
         self.cliente_socket = None
         self.endereco = None
         self.servidor.bind((self.ip, self.porta))

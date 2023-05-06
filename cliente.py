@@ -1,5 +1,4 @@
 import pygame
-import sys
 import random
 import socket
 import threading
@@ -49,7 +48,7 @@ class jogo: #classe para criação da janela
         #parte do cliente
         self.cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Internet , protocolo TCP/IP
         self.ip = '127.0.0.1'
-        self.porta = 1247
+        self.porta = 9999
         ########################################
         self.posicao_y = 250 #posiçãoo de y inicial
         self.jogador_1_x, self.jogador_1_y = 0, 250 #coordenada do jogador 1
