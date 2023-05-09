@@ -1,7 +1,3 @@
-# pip install pygame
-# pip install thread6
-# pip install socket.py
-# cxfreeze servidor.py --target-dir ping-pong comando para criar o executavel
 import pygame
 import random
 import math

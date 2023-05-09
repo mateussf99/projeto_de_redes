@@ -47,7 +47,7 @@ class jogo: #classe para criação da janela
         self.gameloop = True #parametro para deixar o display aberto
         #parte do cliente
         self.cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Internet , protocolo TCP/IP
-        self.ip = '127.0.0.1'
+        self.ip = '127.0.0.1' #ip da maquina de destino
         self.porta = 9999
         ########################################
         self.posicao_y = 250 #posiçãoo de y inicial
