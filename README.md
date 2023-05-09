@@ -20,7 +20,7 @@ Para executar este projeto, você precisará ter o Python instalado em sua máqu
 
 Após baixar o python você precisará instalar o pygame através do comando abaixo no terminal
 ```sh
-  # Installing the dependencies
+  # Instalando o pygame
   pip install pygame
 ```
 Clonando o repositório do git
