@@ -45,6 +45,6 @@ Iniciando o cliente/ jogador 2
 ```
 Caso você queira testar em máquinas diferentes em mesma rede você precisará tocar o ip no cliente.py para o da maquina que ira rodar o servidor 
 ```sh
-  # Onde trocar o ip para o dos servidor
+  # Onde trocar o ip para o da máquina do servidor
   self.ip = '127.0.0.1' #ip da máquina de destino 
 ``` 
